@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39057" started-at="2019-01-14T10:49:40Z" finished-at="2019-01-14T10:50:19Z">
+  <suite name="Default suite" duration-ms="15964" started-at="2019-01-23T05:06:31Z" finished-at="2019-01-23T05:06:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39057" started-at="2019-01-14T10:49:40Z" finished-at="2019-01-14T10:50:19Z">
-      <class name="Test.TutorialTopic">
-        <test-method status="PASS" signature="Coursecheck()[pri:0, instance:Test.TutorialTopic@46d56d67]" name="Coursecheck" duration-ms="39034" started-at="2019-01-14T11:49:40Z" finished-at="2019-01-14T11:50:19Z">
+    <test name="Default test" duration-ms="15964" started-at="2019-01-23T05:06:31Z" finished-at="2019-01-23T05:06:47Z">
+      <class name="Test.Test_ValidLoginDetail">
+        <test-method status="PASS" signature="Browser()[pri:0, instance:Test.Test_ValidLoginDetail@6a1aab78]" name="Browser" is-config="true" duration-ms="11214" started-at="2019-01-23T05:06:31Z" finished-at="2019-01-23T05:06:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Coursecheck -->
-      </class> <!-- Test.TutorialTopic -->
+        </test-method> <!-- Browser -->
+        <test-method status="PASS" signature="LoginSuccessful()[pri:0, instance:Test.Test_ValidLoginDetail@6a1aab78]" name="LoginSuccessful" duration-ms="4475" started-at="2019-01-23T05:06:42Z" finished-at="2019-01-23T05:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccessful -->
+        <test-method status="PASS" signature="BrwoserClose()[pri:0, instance:Test.Test_ValidLoginDetail@6a1aab78]" name="BrwoserClose" is-config="true" duration-ms="231" started-at="2019-01-23T05:06:47Z" finished-at="2019-01-23T05:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrwoserClose -->
+      </class> <!-- Test.Test_ValidLoginDetail -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
